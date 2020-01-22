@@ -10,6 +10,8 @@ const MemberForm = ({ addMember }) => {
 
     const handleChanges = event => {
         setMemberInfo({ ...memberInfo, [event.target.name]: event.target.value });
+
+        
     }
     
     const submitForm = event => {
@@ -19,7 +21,7 @@ const MemberForm = ({ addMember }) => {
     
         setMemberInfo ({ 
             name: "",
-            email: "";
+            email: "",
             role: ""
         })
     }
@@ -61,6 +63,6 @@ const MemberForm = ({ addMember }) => {
         </form>
         
     )
-}
+};
 
 export default MemberForm;

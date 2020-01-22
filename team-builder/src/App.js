@@ -38,7 +38,7 @@ function App() {
       </header>
       <MemberForm />
     </div>
-  );
-}
+  )
+};
 
 export default App;
