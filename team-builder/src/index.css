@@ -26,8 +26,8 @@ input, textarea {
   border-radius: 4px;
 }
 button {
-  background: lightblue;
-  background-image: linear-gradient(-315deg, darkblue 40%, green 100%);
+  background: #0896A5;
+  /* background-image: linear-gradient(-315deg, darkblue 40%, green 100%); */
   border: 1px solid black;
   padding: 10px 15px;
   font-size: 16px;
@@ -38,7 +38,7 @@ button {
 button:hover {
   transform: translateY(-1px);
   box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.12), 0 2px 3px 2px rgba(0, 0, 0, 0.24);
-  background: grey;
+  background: #04E3FA;
 }
 button:active {
   background: #ff7eb9;
