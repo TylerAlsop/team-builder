@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 
-import MemberForm from "./Components/MemberForm"
+import MemberForm from "./Components/MemberForm";
 
 function App() {
 
