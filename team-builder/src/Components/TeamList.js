@@ -13,3 +13,5 @@ const TeamList = props => {
         </div>
     )
 }
+
+export default TeamList
