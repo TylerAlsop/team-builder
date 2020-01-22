@@ -15,11 +15,13 @@ function App() {
       email: memberInfo.email,
       role: memberInfo.role
     };
+
+    const teamList = [...forms, newMember];
+
+    setForms(teamList);
   };
 
-  const teamList = [...forms, newMember];
-
-  setForms(teamList);
+  
 
   console.log("Forms", forms)
 
