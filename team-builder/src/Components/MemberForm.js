@@ -9,6 +9,7 @@ const MemberForm = ({ addMember }) => {
     })
 
     const handleChanges = event => {
+        
         setMemberInfo({ ...memberInfo, [event.target.name]: event.target.value });
 
         

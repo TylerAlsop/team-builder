@@ -14,18 +14,20 @@ function App() {
       name: memberInfo.name,
       email: memberInfo.email,
       role: memberInfo.role
-    }
-  }
+    };
+  };
 
   const teamList = [...forms, newMember];
 
   setForms(teamList);
 
+  console.log("Forms", forms)
 
   return (
     <div className="App">
       <header className="App-header">
-        <MemberForm />
+        <h1>Team List</h1>
+        <MemberForm addMember={addMember}/>
       </header>
       
     </div>
