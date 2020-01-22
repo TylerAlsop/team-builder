@@ -30,6 +30,7 @@ function App() {
       <header className="App-header">
         <h1>Team List</h1>
         <MemberForm addMember={addMember}/>
+        <TeamList forms={forms}/>
       </header>
       
     </div>
